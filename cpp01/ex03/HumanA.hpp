@@ -13,7 +13,6 @@ public:
     HumanA(std::string name, Weapon& weap);
     ~HumanA();
     void attack();
-    void setWeapon(Weapon w);
 };
 
 

@@ -15,7 +15,4 @@ void HumanA::attack()
     std::cout << name <<  " attacks with their " << my_weapon.getType() << std::endl;
 }
 
-void HumanA::setWeapon(Weapon w)
-{
-    my_weapon = w;
-}
+

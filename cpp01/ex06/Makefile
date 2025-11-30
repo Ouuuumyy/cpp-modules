@@ -4,7 +4,7 @@ SRC = main.cpp Harl.cpp
 
 OBJ = $(SRC:.cpp=.o)
 
-CXX = g++
+CXX = c++
 CXXFLAGS = -Wall -Werror -Wextra -std=c++98
 
 all: $(NAME)

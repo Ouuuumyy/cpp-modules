@@ -1,6 +1,6 @@
-NAME = Animal
+NAME = AnimalWithBrain
 
-SRC = Animal.cpp Cat.cpp Dog.cpp main.cpp WrongCat.cpp WrongAnimal.cpp
+SRC = Animal.cpp Cat.cpp Dog.cpp main.cpp Brain.cpp
 
 OBJ = $(SRC:.cpp=.o)
 

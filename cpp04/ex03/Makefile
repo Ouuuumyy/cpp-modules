@@ -1,6 +1,6 @@
-NAME = Animal
+NAME = ex03
 
-SRC = Animal.cpp Cat.cpp Dog.cpp main.cpp WrongCat.cpp WrongAnimal.cpp
+SRC = main.cpp 
 
 OBJ = $(SRC:.cpp=.o)
 

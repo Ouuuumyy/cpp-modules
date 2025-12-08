@@ -1,6 +1,6 @@
 NAME = ex03
 
-SRC = main.cpp 
+SRC = main.cpp AMateria.cpp Cure.cpp Ice.cpp Character.cpp MateriaSource.cpp
 
 OBJ = $(SRC:.cpp=.o)
 

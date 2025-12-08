@@ -3,6 +3,7 @@
 
 #include <iostream>
 #include "AMateria.hpp"
+#include "Character.hpp"
 
 class Ice : public AMateria
 {
@@ -12,7 +13,7 @@ public:
     Ice &operator=(const Ice &other);
     ~Ice();
     virtual Ice* clone() const;
-    // virtual void use(ICharacter& target);
+    virtual void use(ICharacter& target);
 };
 
 #endif

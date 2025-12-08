@@ -3,6 +3,7 @@
 
 #include <iostream>
 #include "AMateria.hpp"
+#include "Character.hpp"
 
 class Cure : public AMateria
 {
@@ -12,7 +13,7 @@ public:
     Cure &operator=(const Cure &other);
     ~Cure();
     virtual Cure* clone() const;
-    // virtual void use(ICharacter& target);
+    virtual void use(ICharacter& target);
 };
 
 #endif

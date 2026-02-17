@@ -1,4 +1,4 @@
-NAME = Iter
+NAME = span
 
 SRC = main.cpp 
 

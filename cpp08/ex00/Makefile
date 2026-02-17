@@ -1,4 +1,4 @@
-NAME = Iter
+NAME = easyfind
 
 SRC = main.cpp 
 
